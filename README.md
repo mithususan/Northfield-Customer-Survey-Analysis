@@ -1,15 +1,15 @@
-# Southfield-Customer-Survey-Analysis
+# northfield-Customer-Survey-Analysis
 Power BI dashboard showing how satisfied customers are and where satisfaction is strongest or weakest, built from cleaned, multi-source survey data (synthetic).
 # Customer Satisfaction Dashboard: A Voice of Customer Project
 
 I took customer survey data from three different systems, cleaned and connected it, and built a Power BI dashboard
 that shows how satisfied customers are and where satisfaction is strongest or weakest.
 
-> **The data is artificial.** Southfield Financial is a fictional bank and insurer, and all the data was generated for this
+> **The data is artificial.** northfield Financial is a fictional bank and insurer, and all the data was generated for this
 > project. It shows how I approach the work, not real business results.
 
 Overview page:
-<img width="1437" height="802" alt="dashboard1" src="https://github.com/user-attachments/assets/36ae6dbd-b019-4f1c-ad53-9eb17a822f6a" />
+<img width="1436" height="807" alt="dashboard1" src="https://github.com/user-attachments/assets/29505ff1-7e8f-4235-8ed8-1fd1eca629f6" />
 
 Semantic model:
 <img width="1030" height="731" alt="semanticmodeldgm" src="https://github.com/user-attachments/assets/46141cde-9085-45e2-8ca5-5792f4957c61" />
@@ -27,7 +27,7 @@ The dashboard answers: **How satisfied are our customers, and where is it strong
 
 ## The dashboard
 
-A two-page Power BI report (`VoC_NPS_Southfield.pbix`).
+A two-page Power BI report (`VoC_NPS_northfield.pbix`).
 
 - **Overview:** the headline numbers (NPS, average satisfaction score, survey invitations, responses and response
   rate), NPS by month, the mix of promoters, passives and detractors each month, invitations and responses by channel,
@@ -73,6 +73,6 @@ Tools: SQL Server, Power BI, and Claude with MCP connectors.
 
 | Item | What it is |
 |---|---|
-| `VoC_NPS_Southfield.pbix` | The Power BI report |
+| `VoC_NPS_northfield.pbix` | The Power BI report |
 | `data/` | The made-up source data |
 | `generate_data.py` | The script that creates the data |
